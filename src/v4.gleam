@@ -31,6 +31,6 @@ fn not_empty(trimmed: String) -> Bool {
   |> bool.negate
 }
 
-fn get_line_count_message(count: Int) {
+fn get_line_count_message(count: Int) -> String {
   "Number of lines: " <> int.to_string(count)
 }
